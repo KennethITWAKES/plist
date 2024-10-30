@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>BGTaskSchedulerPermittedIdentifiers</key>
+    <array>
+        <string>com.transistorsoft.fetch</string>
+    </array>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>${PRODUCT_NAME}</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIcons</key>
+    <dict/>
+    <key>CFBundleIcons~ipad</key>
+    <dict/>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.6</string>
+    <key>CFBundleName</key>
+    <string>$(PRODUCT_NAME)</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>$(MARKETING_VERSION)</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLName</key>
+            <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>alipayScheme</string>
+            </array>
+        </dict>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLName</key>
+            <string>wexin</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>wx3c6896fa9b351f2a</string>
+            </array>
+        </dict>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLName</key>
+            <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+            </array>
+        </dict>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>$(CURRENT_PROJECT_VERSION)</string>
+    <key>CodePushDeploymentKey</key>
+    <string>$(CODE_PUSH_DP_KEY)</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>alipay</string>
+        <string>wechat</string>
+        <string>weixin</string>
+    </array>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+        <key>NSExceptionDomains</key>
+        <dict>
+            <key>NSIncludesSubdomains</key>
+            <true/>
+            <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+            <true/>
+            <key>NSTemporaryExceptionMinimumTLSVersion</key>
+            <string>TLSv1.0</string>
+            <key>NSTemporaryExceptionRequiresForwardSecrecy</key>
+            <false/>
+            <key>alipay.com</key>
+            <dict>
+                <key>NSIncludesSubdomains</key>
+                <true/>
+                <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+                <true/>
+                <key>NSTemporaryExceptionMinimumTLSVersion</key>
+                <string>TLSv1.0</string>
+                <key>NSTemporaryExceptionRequiresForwardSecrecy</key>
+                <false/>
+            </dict>
+            <key>alipayobjects.com</key>
+            <dict>
+                <key>NSIncludesSubdomains</key>
+                <true/>
+                <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+                <true/>
+                <key>NSTemporaryExceptionMinimumTLSVersion</key>
+                <string>TLSv1.0</string>
+                <key>NSTemporaryExceptionRequiresForwardSecrecy</key>
+                <false/>
+            </dict>
+            <key>localhost</key>
+            <dict>
+                <key>NSExceptionAllowsInsecureHTTPLoads</key>
+                <true/>
+            </dict>
+        </dict>
+    </dict>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>Media Library Usage</string>
+    <key>NSAppleMusicUsageDescription </key>
+    <string>Apple Music Usage</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Access Bluetooth</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Bluetooth Usage</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>Calendars Usage</string>
+    <key>NSCameraUsageDescription</key>
+    <string>$(PRODUCT_NAME) requires access to your camera to let you add pictures to post as your profile picture</string>
+    <key>NSContactsUsageDescription</key>
+    <string>Contacts Usage</string>
+    <key>NSFaceIDUsageDescription</key>
+    <string>Enabling Face ID</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Location Usage.  $(PRODUCT_NAME) requires your location so that we can centre the map on you &amp; show you where [x] is.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Location Always Usage.  </string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Location When In Use Usage</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Access Microphone</string>
+    <key>NSMotionUsageDescription</key>
+    <string>Motion Usage</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>$(PRODUCT_NAME) needs to access your camera roll for album and profile usage. Your images will not be shared without your permission.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>$(PRODUCT_NAME) needs to access your camera roll for album and profile usage. Your images will not be shared without your permission.</string>
+    <key>NSSiriUsageDescription</key>
+    <string>Access Siri</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Speak Recognition Usage</string>
+    <key>UIAppFonts</key>
+    <array>
+        <string>AntDesign.ttf</string>
+        <string>Entypo.ttf</string>
+        <string>EvilIcons.ttf</string>
+        <string>Feather.ttf</string>
+        <string>FontAwesome.ttf</string>
+        <string>FontAwesome5_Brands.ttf</string>
+        <string>FontAwesome5_Regular.ttf</string>
+        <string>FontAwesome5_Solid.ttf</string>
+        <string>Foundation.ttf</string>
+        <string>Ionicons.ttf</string>
+        <string>MaterialCommunityIcons.ttf</string>
+        <string>MaterialIcons.ttf</string>
+        <string>Octicons.ttf</string>
+        <string>SimpleLineIcons.ttf</string>
+        <string>Zocial.ttf</string>
+        <string>Fontisto.ttf</string>
+    </array>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>fetch</string>
+        <string>remote-notification</string>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+        <string>armv7</string>
+        <string>gamekit</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>voip</key>
+    <string>voip</string>
+</dict>
+</plist>
